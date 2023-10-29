@@ -22,7 +22,7 @@ const SupportAgentElderliespage = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Smart Home |  Support-Agent-Elderly</title>
-                <link rel="canonical" href="http://mysite.com/example" />
+                <link rel="canonical" href="" />
             </Helmet>
             <div className='md:px-[30px] px-2'>
                 <div className="flex items-center gap-2 text-xs mt-10">

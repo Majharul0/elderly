@@ -84,7 +84,7 @@ const Login = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Smart Home | Login</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        <link rel="canonical" href="" />
       </Helmet>
 
       <div className="md:flex w-full ">

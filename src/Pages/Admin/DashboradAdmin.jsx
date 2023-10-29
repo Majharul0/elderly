@@ -14,7 +14,7 @@ const DashboradAdmin = () => {
         <Helmet>
             <meta charSet="utf-8" />
             <title>Smart Home | Admin Dashboard</title>
-            <link rel="canonical" href="http://mysite.com/example" />
+            <link rel="canonical" href="" />
         </Helmet>
         <div className='md:mx-[22px] px-2'>
             <div className="flex items-center gap-2 text-xs mt-10">

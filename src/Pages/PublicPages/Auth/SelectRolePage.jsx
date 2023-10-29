@@ -31,7 +31,7 @@ const SelectRolePage = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Smart Home</title>
-                <link rel="canonical" href="http://mysite.com/example" />
+                <link rel="canonical" href="" />
             </Helmet>
             <div className='md:flex w-full '>
                 <div className="flex items-center h-[100vh] md:w-[40%] w-full md:pt-10 pt-5 md:flex justify-center">

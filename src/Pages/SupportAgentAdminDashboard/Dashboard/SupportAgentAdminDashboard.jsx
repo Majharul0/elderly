@@ -11,7 +11,7 @@ const SupportAgentAdminDashboard = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Smart Home |  Support-Agent</title>
-                <link rel="canonical" href="http://mysite.com/example" />
+                <link rel="canonical" href="" />
             </Helmet>
             <div className=''>
                 <div className="flex items-center gap-2 text-[13px] m-[30px]">
