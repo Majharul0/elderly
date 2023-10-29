@@ -17,11 +17,15 @@ const AdminElderlyOverViewTags = () => {
         },
     ])
 
+    const crypto = window.crypto || window.msCrypto;
+    let array = new Uint32Array(1);
+    crypto.getRandomValues(array); 
+
     const addTages = ()=>{
         if(!tags){
             toast.custom((t)=><CustomErrorToast t={t} text={"Please add a tags"} title={"Error"}/>)
         }else{
-            setData(pre=> [...pre,{id:Math.random(),tag:tags}])
+            setData(pre=> [...pre,{id:array[0],tag:tags}])
             setTags("")
         }
         

@@ -21,7 +21,7 @@ const AdminElderlyOverViewNotes = () => {
         },
     ])
     const crypto = window.crypto || window.msCrypto;
-    var array = new Uint32Array(1);
+    let array = new Uint32Array(1);
     crypto.getRandomValues(array); 
 
     const addNodes = ()=>{
