@@ -1,0 +1,381 @@
+html,
+body{
+  width: 100%;
+    /* font-family: "Poppins", "sans-serif", "roboto"; */
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.css-h0q0iv-MuiButtonBase-root-MuiTab-root{
+  padding: 12px 26px !important;
+  font-size: 14px !important;
+  text-transform: capitalize !important;
+  font-weight: 400 !important;
+}
+
+
+.swiper {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.swiper-slide {
+
+  width: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custom-select {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-select select {
+  appearance: none;
+  -webkit-appearance: none;
+  padding-left: 30px; /* Space for icon */
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-person-fill" viewBox="0 0 16 16"><path d="M8 0a4 4 0 0 0-4 4c0 3 4 8 4 8s4-5 4-8a4 4 0 0 0-4-4zm0 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/></svg>') no-repeat right center;
+  background-size: 20px 20px; /* Size of icon */
+}
+
+
+.css-19kzrtu {
+  padding: 0px !important;
+}
+
+
+.border__item{
+  border:8px solid transparent;
+}
+#supportAgent-p-bar .ant-progress-text{
+  color:white;
+  font-weight:600;
+  font-size: 16px;
+}
+.ant-table-cell{
+  color:#5D6670
+}
+
+/* ---------style for ant design table pagination----------- */
+.ant-pagination .ant-pagination-item{
+  border: none;
+  color:#5D6670
+}
+
+.ant-pagination .ant-pagination-next .ant-pagination-item-link{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.ant-pagination .ant-pagination-prev .ant-pagination-item-link{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.ant-pagination .ant-pagination-item-active a{
+  color:black;
+  background:#E7E8EA;
+  border-radius: 4px;
+}
+.MuiBox-root .css-19kzrtu{
+  padding:0px;
+}
+
+:where(.css-dev-only-do-not-override-txh9fw).ant-table-wrapper .ant-table-pagination.ant-pagination {
+  margin: 20px 0 !important;
+}
+
+/* -----------support agent > dashboard > activity > elderly conditions date picker------------- */
+
+#elderlyDatePicker .ant-picker-input > input{
+  color:white !important;
+}
+#elderlyDatePicker .ant-picker-input > span{
+  color:white !important;
+}
+
+#elderlyDatePicker input::placeholder {
+  color: rgb(248, 248, 248); 
+
+}
+
+#suspendAdmin__swiper .mySwiper2  .swiper{
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* this is audio track*/
+#waveform > div{
+  margin-bottom: 64px !important;
+}
+
+
+.ant-table-thead .ant-table-cell {
+  background-color: #fff !important;
+  font-size: 13px !important;
+  color: #3D4854 !important;
+  font-weight: 700 !important;
+  font-family: 'Roboto', sans-serif !important;
+  }
+
+
+
+
+/* its use for divice finding--------------- */
+ @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .circle-container {
+    position: relative;
+    width: 218px;
+    height: 217px;
+    animation: rotate 1s linear infinite;
+  }
+
+  .animated-circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+/* end its use for divice finding--------------- */
+
+
+/* ----------start rounded checkbox ----------- */
+.rounded-checkbox .ant-checkbox-wrapper {
+  border-radius: 50%;
+}
+.rounded-checkbox .ant-checkbox-inner {
+  border-radius: 50%;
+}
+/* ----------end rounded checkbox ----------- */
+
+
+/*---------- Report page shadow-------- */
+#reportPage-shadow{
+  box-shadow: 9px 13px 13px -13px black;
+}
+
+
+#alerts-table .ant-table-thead >tr >th{
+  color:#3D4854;
+  font-size:13px;
+  font-weight: 700;
+}
+
+.support-agent-dashboard .ant-table-cell{
+  padding: 16px 27px !important;
+}
+
+.ant-pagination-options{
+  display:none !important;
+}
+.admin__Table .ant-table-cell{
+  padding: 15px 22px !important;
+}
+
+
+.ant-table-wrapper .ant-table-pagination.ant-pagination {
+  margin: 20px 32px !important;
+}
+
+/* -----for user table-------- */
+#user-table .css-11xur9t-MuiPaper-root-MuiTableContainer-root{
+  box-shadow: 0px 0px 0px 0px !important;
+}
+
+
+/* All good animation  */
+
+.all__good{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #01BE4F;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.all__good:before,
+.all__good:after{
+  content: "";
+  display: block;
+  position: absolute;
+  border: 50%;
+  border: 2px solid #01BE4F;
+  left: -20px;
+  right: -20px;
+  top: -20px;
+  bottom: -20px;
+  border-radius: 50%;
+  animation: allgoodanimate 1s linear infinite;
+  opacity: 0;
+  backface-visibility: hidden;
+}
+.all__good:after{
+  animation-delay: .5s;
+}
+
+.all__good1{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #FA4C4C;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.all__good1:before,
+.all__good1:after{
+  content: "";
+  display: block;
+  position: absolute;
+  border: 50%;
+  border: 2px solid #FA4C4C;
+  left: -20px;
+  right: -20px;
+  top: -20px;
+  bottom: -20px;
+  border-radius: 50%;
+  animation: allgoodanimate 1s linear infinite;
+  opacity: 0;
+  backface-visibility: hidden;
+}
+.all__good1:after{
+  animation-delay: .5s;
+}
+
+
+.all__good2{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #FF974C;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.all__good2:before,
+.all__good2:after{
+  content: "";
+  display: block;
+  position: absolute;
+  border: 50%;
+  border: 2px solid #FF974C;
+  left: -20px;
+  right: -20px;
+  top: -20px;
+  bottom: -20px;
+  border-radius: 50%;
+  animation: allgoodanimate 1s linear infinite;
+  opacity: 0;
+  backface-visibility: hidden;
+}
+.all__good2:after{
+  animation-delay: .5s;
+}
+
+.all__good3{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #0070F0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.all__good3:before,
+.all__good3:after{
+  content: "";
+  display: block;
+  position: absolute;
+  border: 50%;
+  border: 2px solid #0070F0;
+  left: -20px;
+  right: -20px;
+  top: -20px;
+  bottom: -20px;
+  border-radius: 50%;
+  animation: allgoodanimate 1s linear infinite;
+  opacity: 0;
+  backface-visibility: hidden;
+}
+.all__good3:after{
+  animation-delay: .5s;
+}
+
+@keyframes allgoodanimate {
+  0%{
+    transform: scale(0.5);
+    opacity: 1;
+  };
+  50%{
+    opacity: 0.5;
+  };
+  100%{
+    transform: scale(0.5);
+    opacity: 0;
+  };
+}
+
+
+#trends-table .ant-table-cell{
+  border-bottom: none !important;
+  padding:0px 0px !important;
+
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list{
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  border-radius: 10px !important;
+}
+
+  
+/* Customize the scrollbar thumb */
+.customScrollbar::-webkit-scrollbar-thumb {
+  background-color: #b6b6b6; /* Color of the thumb */
+  border-radius: 10px;
+}
+/* Customize the scrollbar track */
+.customScrollbar::-webkit-scrollbar-track {
+  background-color: #e6e6e6; /* Color of the track */
+}
+
+/* Customize the scrollbar width and height */
+.customScrollbar::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+}
+
+
+.ant-switch{
+  background-color: #b6b6b6 !important;
+}
+
+.ant-switch-checked{
+  background-color: #0070F0 !important;
+}

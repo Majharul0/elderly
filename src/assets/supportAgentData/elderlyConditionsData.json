@@ -1,0 +1,26 @@
+[
+    {
+        "category": "Elderly 1",
+        "bloodPressure": "120/80",
+        "heartRate": "72",
+        "bodyTemperature": "98.6"
+    },
+    {
+        "category": "Elderly 2",
+        "bloodPressure": "110/80",
+        "heartRate": "70",
+        "bodyTemperature": "96.6"
+    },
+    {
+        "category": "Elderly 3",
+        "bloodPressure": "110/70",
+        "heartRate": "71",
+        "bodyTemperature": "97.6"
+    },
+    {
+        "category": "Elderly 4",
+        "bloodPressure": "120/90",
+        "heartRate": "73",
+        "bodyTemperature": "98.6"
+    }
+]
