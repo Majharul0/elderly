@@ -20,12 +20,15 @@ const AdminElderlyOverViewNotes = () => {
             date:"02:30 am - 07/05/23"
         },
     ])
+    const crypto = window.crypto || window.msCrypto;
+    var array = new Uint32Array(1);
+    crypto.getRandomValues(array); 
 
     const addNodes = ()=>{
         if(!notes){
             toast.custom((t)=><CustomErrorToast t={t} text={"Please add a Notes"} title={"Error"}/>)
         }else{
-            setData(pre=> [...pre,{id:Math.random(),title:notes,date:"02:30 am - 07/05/23"}])
+            setData(pre=> [...pre,{id:array[0],title:notes,date:"02:30 am - 07/05/23"}])
             setNotes("")
         }
     }
