@@ -89,7 +89,7 @@ const AdminElderlyOverViewLeftCall = () => {
 
         <div className='flex items-center justify-between mt-[47px]'>
             <h2 className='text-[19px] font-[500] text-[#0D1A29]'>Call History</h2>
-            <span onClick={()=>setShow(true)} className='text-[16px] font-[500] cursor-pointer text-primary'>See All</span>
+            <span onClick={()=>{setShow(true)}} className='text-[16px] font-[500] cursor-pointer text-primary'>See All</span>
         </div>
 
         <div className='mt-5'>
